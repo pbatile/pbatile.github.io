@@ -138,7 +138,7 @@
             <a href="tel:+15616327480" class="btn btn-gold me-sm-3 mb-3 mb-sm-0">
               <i class="bi bi-telephone-fill me-2"></i> Call 561-632-7480
             </a>
-            <a href="#portfolio" class="btn btn-outline-gold mb-3 mb-sm-0">
+            <a href="#gallery" class="btn btn-outline-gold mb-3 mb-sm-0">
               <i class="bi bi-chat-left-text-fill me-2 active"></i> View Our Work
             </a>
           </div>
@@ -702,6 +702,21 @@
           }
         });
       });
+
+      const viewWork = document.querySelector('#about a[href="#gallery"]');
+      if (viewWork) {
+        viewWork.addEventListener("click", function (e) {
+          const targetSection = document.querySelector("#gallery");
+          if (!targetSection) return;
+
+          e.preventDefault();
+          const navHeight = navbar.getBoundingClientRect().height;
+          window.scrollTo({
+            top: targetSection.getBoundingClientRect().top + window.pageYOffset - navHeight,
+            behavior: "smooth"
+          });
+        });
+      }
 
 
       function setActiveMenu() {
