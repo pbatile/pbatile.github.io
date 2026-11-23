@@ -136,7 +136,7 @@
           <p class="label-tag">Email the shop</p>
           <div class="section-divider"></div>
           <h2 class="section-title mb-3">Send a request</h2>
-          <p class="about-body">This form opens an email to pavzinfo@gmail.com in your own mail app. The website does not store the message and does not use a form service.</p>
+          <p class="about-body">Your email app will open with this request addressed to pavzinfo@gmail.com.</p>
           <form id="contact-form" class="contact-form">
             <label>Name
               <input name="name" type="text" required autocomplete="name" maxlength="120">
@@ -166,7 +166,7 @@
               <textarea name="message" required maxlength="2000"></textarea>
             </label>
             <button class="btn btn-gold" type="submit">Email pavzinfo@gmail.com</button>
-            <p class="form-note" id="form-status">Submitting opens your email app with the message filled in. If nothing opens, call or text 561-632-7480.</p>
+            <p class="form-note" id="form-status">Your email app will open with a message to pavzinfo@gmail.com. If it does not, call or text 561-632-7480.</p>
           </form>
           <noscript>
             <p class="form-note">Email <a href="mailto:pavzinfo@gmail.com">pavzinfo@gmail.com</a> directly, or call 561-632-7480.</p>
@@ -257,7 +257,7 @@
         message: String(data.get("message") || "").trim()
       });
       var status = document.getElementById("form-status");
-      status.textContent = "Opening your email app with a message to pavzinfo@gmail.com.";
+      status.textContent = "Your email app is opening a message to pavzinfo@gmail.com.";
       window.location.href = href;
     });
   </script>
