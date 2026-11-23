@@ -77,13 +77,53 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who installs tile near me in West Palm Beach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PBA Tile & Marble installs bathroom, shower, floor, and kitchen tile in West Palm Beach and across Palm Beach County. The shop is at 2635 Meadow Rd, West Palm Beach, FL 33406. Call or text 561-632-7480."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tile work does PBA Tile & Marble do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bathroom tile, shower walls and niches, porcelain and large-format floors, marble floors, and kitchen backsplashes. The company also lists flooring repair, laminate flooring, and commercial tile, and it works with homeowners, general contractors, and builders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I ask for a tile estimate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call or text 561-632-7480, or email pavzinfo@gmail.com. PBA Tile & Marble schedules a free in-home consultation, reviews the space, discusses materials, and provides a detailed quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are PBA Tile & Marble's hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monday through Friday, 9:00 AM to 4:30 PM. Closed Saturday and Sunday."
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container-fluid px-4 px-lg-5">
-      <a class="navbar-brand" href="#"><img class="logo-width" src="logo.webp" alt="PBA Tile & Marble"></a>
+      <a class="navbar-brand" href="/"><img class="logo-width" src="logo.webp" alt="PBA Tile & Marble"></a>
 
       <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -97,11 +137,32 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
           <li class="nav-item"><a class="nav-link active" href="#home">HOME</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-section="services" aria-expanded="false">SERVICES</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#services">All services</a></li>
+              <li><a class="dropdown-item" href="/bathroom-tile/">Bathroom tile</a></li>
+              <li><a class="dropdown-item" href="/shower-tile/">Shower tile</a></li>
+              <li><a class="dropdown-item" href="/floor-tile/">Floor tile</a></li>
+              <li><a class="dropdown-item" href="/kitchen-backsplash/">Kitchen backsplash</a></li>
+            </ul>
+          </li>
           <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
           <li class="nav-item"><a class="nav-link" href="#reviews">REVIEWS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#area">SERVICE AREA</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-section="area" aria-expanded="false">SERVICE AREA</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#area">Palm Beach County</a></li>
+              <li><a class="dropdown-item" href="/west-palm-beach/">West Palm Beach</a></li>
+              <li><a class="dropdown-item" href="/lake-worth-beach/">Lake Worth Beach</a></li>
+              <li><a class="dropdown-item" href="/boynton-beach/">Boynton Beach</a></li>
+              <li><a class="dropdown-item" href="/wellington/">Wellington</a></li>
+              <li><a class="dropdown-item" href="/palm-beach-gardens/">Palm Beach Gardens</a></li>
+              <li><a class="dropdown-item" href="/royal-palm-beach/">Royal Palm Beach</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/faq/">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact/">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -221,6 +282,7 @@
             <div class="service-icon"><i class="bi bi-grid-3x3"></i></div>
             <h3 class="service-title">Tile Installation</h3>
             <p class="service-desc">High quality tile installation for bathrooms, kitchens and floors.</p>
+            <p class="service-links"><a href="/bathroom-tile/">Bathrooms</a><a href="/shower-tile/">Showers</a><a href="/floor-tile/">Floors</a><a href="/kitchen-backsplash/">Kitchens</a></p>
             <span class="service-num">01</span>
           </div>
         </div>
@@ -229,6 +291,7 @@
             <div class="service-icon"><i class="bi-layout-text-window"></i></div>
             <h3 class="service-title">Porcelain Tile Floors</h3>
             <p class="service-desc">Modern porcelain tile floors installed with precise layout and clean finish.</p>
+            <p class="service-links"><a href="/floor-tile/">Floor tile</a></p>
             <span class="service-num">02</span>
           </div>
         </div>
@@ -237,6 +300,7 @@
             <div class="service-icon"><i class="bi-aspect-ratio"></i></div>
             <h3 class="service-title">Large Format Tile Installation</h3>
             <p class="service-desc">Professional installation of large format porcelain and stone tiles.</p>
+            <p class="service-links"><a href="/floor-tile/">Floor tile</a></p>
             <span class="service-num">03</span>
           </div>
         </div>
@@ -245,6 +309,7 @@
             <div class="service-icon"><i class="bi-columns-gap"></i></div>
             <h3 class="service-title">Backsplash</h3>
             <p class="service-desc">Custom backsplash installations that add beauty and value to kitchens.</p>
+            <p class="service-links"><a href="/kitchen-backsplash/">Kitchen backsplash</a></p>
             <span class="service-num">04</span>
           </div>
         </div>
@@ -254,6 +319,7 @@
             <h3 class="service-title">Marble Floor Installation</h3>
             <p class="service-desc">Premium marble floor installation with expert cutting, leveling, and polished
               finishing for elegant spaces.</p>
+            <p class="service-links"><a href="/floor-tile/">Floor tile</a></p>
             <span class="service-num">05</span>
           </div>
         </div>
@@ -263,6 +329,7 @@
             <h3 class="service-title">Shower & Bathroom</h3>
             <p class="service-desc">Luxury shower walls, bathroom tile work, niches, and waterproof installations built
               for beauty and durability.</p>
+            <p class="service-links"><a href="/bathroom-tile/">Bathroom tile</a><a href="/shower-tile/">Shower tile</a></p>
             <span class="service-num">06</span>
           </div>
         </div>
@@ -454,16 +521,17 @@
         <div class="col-lg-7 reveal">
           <div class="area">
             <ul>
-              <li>West Palm Beach</li>
-              <li>Lake Worth</li>
-              <li>Boynton Beach</li>
+              <li><a href="/west-palm-beach/">West Palm Beach</a></li>
+              <li><a href="/lake-worth-beach/">Lake Worth Beach</a></li>
+              <li><a href="/boynton-beach/">Boynton Beach</a></li>
               <li>Delray Beach</li>
               <li>Boca Raton</li>
-              <li>Wellington</li>
-              <li>Palm Beach Gardens</li>
+              <li><a href="/wellington/">Wellington</a></li>
+              <li><a href="/palm-beach-gardens/">Palm Beach Gardens</a></li>
               <li>Jupiter</li>
               <li>Jupiter Farms</li>
               <li>Loxahatchee</li>
+              <li><a href="/royal-palm-beach/">Royal Palm Beach</a></li>
             </ul>
           </div>
         </div>
@@ -472,6 +540,22 @@
   </section>
 
 
+
+
+  <section id="home-faq">
+    <div class="container">
+      <p class="label-tag fade-up">Questions</p>
+      <div class="section-divider fade-up"></div>
+      <h2 class="section-title fade-up mb-4">Questions people ask about tile in West Palm Beach</h2>
+      <div class="faq-list">
+        <details open><summary>Who installs tile near me in West Palm Beach?</summary><p>PBA Tile & Marble installs bathroom, shower, floor, and kitchen tile in West Palm Beach and across Palm Beach County. The shop is at 2635 Meadow Rd, West Palm Beach, FL 33406. Call or text 561-632-7480.</p></details>
+<details><summary>What tile work does PBA Tile & Marble do?</summary><p>Bathroom tile, shower walls and niches, porcelain and large-format floors, marble floors, and kitchen backsplashes. The company also lists flooring repair, laminate flooring, and commercial tile, and it works with homeowners, general contractors, and builders.</p></details>
+<details><summary>How do I ask for a tile estimate?</summary><p>Call or text 561-632-7480, or email pavzinfo@gmail.com. PBA Tile & Marble schedules a free in-home consultation, reviews the space, discusses materials, and provides a detailed quote.</p></details>
+<details><summary>What are PBA Tile & Marble's hours?</summary><p>Monday through Friday, 9:00 AM to 4:30 PM. Closed Saturday and Sunday.</p></details>
+      </div>
+      <p class="mt-4"><a href="/faq/" class="faq-more">Read all questions</a></p>
+    </div>
+  </section>
 
  <!-- ═══ CTA  ════════════════════════════════════════════ -->
   <section class="cta reveal text-center">
@@ -536,6 +620,22 @@
           <a href="#gallery" class="footer-link">Gallery</a>
           <a href="#reviews" class="footer-link">Reviews</a>
           <a href="#area" class="footer-link">Service Area</a>
+          <a href="/faq/" class="footer-link">FAQ</a>
+          <a href="/contact/" class="footer-link">Contact</a>
+
+          <div class="footer-heading mt-4">Services</div>
+          <a href="/bathroom-tile/" class="footer-link">Bathroom Tile</a>
+          <a href="/shower-tile/" class="footer-link">Shower Tile</a>
+          <a href="/floor-tile/" class="footer-link">Floor Tile</a>
+          <a href="/kitchen-backsplash/" class="footer-link">Kitchen Backsplash</a>
+
+          <div class="footer-heading mt-4">Service Area</div>
+          <a href="/west-palm-beach/" class="footer-link">West Palm Beach</a>
+          <a href="/lake-worth-beach/" class="footer-link">Lake Worth Beach</a>
+          <a href="/boynton-beach/" class="footer-link">Boynton Beach</a>
+          <a href="/wellington/" class="footer-link">Wellington</a>
+          <a href="/palm-beach-gardens/" class="footer-link">Palm Beach Gardens</a>
+          <a href="/royal-palm-beach/" class="footer-link">Royal Palm Beach</a>
         </div>
 
         <!-- Working Hours -->
@@ -725,23 +825,24 @@
       const navbar = document.getElementById("mainNav");
 
 
-      navLinks.forEach(link => {
+      document.querySelectorAll("#navbarResponsive a").forEach(link => {
 
         link.addEventListener("click", function (e) {
 
-          e.preventDefault();
+          if (this.hasAttribute("data-bs-toggle")) return;
 
           const targetId = this.getAttribute("href");
+          if (!targetId || !targetId.startsWith("#")) return;
+
           const targetSection = document.querySelector(targetId);
+          if (!targetSection) return;
 
-          if (targetSection) {
+          e.preventDefault();
 
-            window.scrollTo({
-              top: targetSection.offsetTop - 80,
-              behavior: "smooth"
-            });
-          }
-
+          window.scrollTo({
+            top: targetSection.offsetTop - 80,
+            behavior: "smooth"
+          });
 
           const navbarCollapse = document.querySelector(".navbar-collapse");
 
@@ -793,7 +894,7 @@
 
           link.classList.remove("active");
 
-          if (link.getAttribute("href") === "#" + current) {
+          if (link.getAttribute("href") === "#" + current || link.getAttribute("data-section") === current) {
             link.classList.add("active");
           }
         });
