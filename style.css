@@ -833,6 +833,13 @@ footer {
   height: 450px;
   border: 0;
 }
+.map-caption {
+  color: var(--clr-text-muted);
+  text-align: center;
+  margin: 0;
+  padding: 1.25rem 1rem 0.75rem;
+  font-size: 0.95rem;
+}
 
 /* Mobile View */
 @media (max-width: 768px) {
