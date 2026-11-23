@@ -307,7 +307,7 @@ img.logo-width {
   position: relative;
   height: 100dvh;
   min-height: 600px;
-  background-image: url("./images/hero_bg.png"); /* REPLACE WITH YOUR IMAGE URL */
+  background-image: url("./images/hero_bg.webp"); /* compressed webp, same photo */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
