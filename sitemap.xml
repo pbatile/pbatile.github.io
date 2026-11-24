@@ -67,6 +67,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://pbatile.com/jupiter/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pbatile.com/jupiter-farms/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pbatile.com/boca-raton/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pbatile.com/loxahatchee/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://pbatile.com/faq/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
